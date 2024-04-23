@@ -1,4 +1,3 @@
-use chrono::{DateTime, Local, Timelike};
 use colored::Colorize;
 use commands::execute_command;
 use dotenv::dotenv;
