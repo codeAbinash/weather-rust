@@ -1,9 +1,9 @@
-# Weather (weather-rs)
+# Weather (weather-rust)
 
-![GitHub Release](https://img.shields.io/github/v/release/codeAbinash/weather-rs)
-![Release Date](https://img.shields.io/github/release-date/codeabinash/weather-rs)
-![Languages](https://img.shields.io/github/languages/top/codeabinash/weather-rs)
-![License](https://img.shields.io/github/license/codeAbinash/weather-rs)
+![GitHub Release](https://img.shields.io/github/v/release/codeAbinash/weather-rust)
+![Release Date](https://img.shields.io/github/release-date/codeabinash/weather-rust)
+![Languages](https://img.shields.io/github/languages/top/codeabinash/weather-rust)
+![License](https://img.shields.io/github/license/codeAbinash/weather-rust)
 
 A simple weather CLI app written in Rust.
 
