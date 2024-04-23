@@ -1,0 +1,30 @@
+[package]
+name = "weather"
+version = "0.0.1-beta.1"
+edition = "2021"
+authors = ["Abinash Karmakar"]
+license = "MIT"
+description = "A simple weather CLI app written in Rust"
+categories = ["cli", "weather", "api"]
+keywords = ["cli", "weather", "api"]
+homepage = "https://github.com/codeAbinash/weather-rs"
+repository = "https://github.com/codeAbinash/weather-rs"
+
+
+[[bin]]
+name = "weather"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.12.4", features = ["json"] }
+structopt = "0.3.21"
+exitfailure = "0.5.1"
+serde = "1.0.119"
+serde_json = "1.0.61"
+serde_derive = "1.0.119"
+tokio = { version = "1.0.2", features = ["full"] }
+colored = "2.1.0"
+chrono = "0.4.38"
+dotenv = "0.15.0"

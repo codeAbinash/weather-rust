@@ -1,0 +1,9 @@
+{
+  "files.autoSave": "afterDelay",
+  "cSpell.words": [
+    "chrono",
+    "dotenv",
+    "reqwest",
+    "truecolor"
+  ]
+}
