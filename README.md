@@ -7,6 +7,9 @@
 
 A simple weather CLI app written in Rust.
 
+
+![Demo](images/demo.gif)
+
 ## Usage
 
 ```bash
