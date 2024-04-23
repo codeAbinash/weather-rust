@@ -3,7 +3,7 @@ pub const DEFAULT_LOCATION: &'static str = "Bankura";
 pub const DEFAULT_LAT: f64 = 23.2325;
 pub const DEFAULT_LON: f64 = 87.0654;
 pub const DEFAULT_API_KEY: &'static str = "0e376e0750966cdba160fc85a4bb0427";
-pub const VERSION: &'static str = "0.0.1-beta.1";
+pub const VERSION: &'static str = "0.1.0-beta.1";
 pub const REPO_LINK: &'static str = "https://github.com/codeAbinash/weather-rs/";
 
 use chrono::prelude::*;

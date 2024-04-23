@@ -16,14 +16,14 @@ A simple weather CLI app written in Rust.
 $ weather
 ```
 
-> prints the weather of the location mentioned in the .env file or the default location.
+> Prints the weather of the location mentioned in the .env file or the default location.
 
 ```bash
-$ weather --help # or  -v prints the help message
+$ weather --help # or  -h prints the help message
 ```
 
 ```bash
-$ weather --version # or -h prints the version of the app
+$ weather --version # or -v prints the version of the app
 ```
 
 ## Configuration

@@ -1,3 +1,4 @@
+use chrono::{DateTime, Local, Timelike};
 use colored::Colorize;
 use commands::execute_command;
 use dotenv::dotenv;
@@ -63,14 +64,21 @@ fn print_weather(weather: Weather, aqi: Aqi, location_name: &str) {
    let humidity = humidity_string(w.humidity);
    let wind = wind_string(w.wind_speed, w.wind_deg);
    let cloud = cloud_string(w.clouds);
-   let sunrise = format!("🌅 Sunrise {}", sunrise);
-   let sunset = format!("🌇 Sunset  {}", sunset);
+   let sunrise = format!("🌅 Sunrise: {}", sunrise);
+   let sunset = format!("🌇 Sunset:  {}", sunset);
    let pressure = pressure_string(w.pressure);
    let air_quality = aqi_string(aqi.list[0].main.aqi);
    let rain = rain_string(h[0].pop);
 
+   // let now = chrono::Local::now();
+   // let hour = now.hour();
+
+   // fn display_time(time: DateTime<Local>) -> String {
+   //    time.format("%A, %B %e, %Y %r").to_string()
+   // }
+
    // println!("Hello {USER_NAME} 👋🏻{}", greeting_string(hour));
-   println!("\nCurrent Weather ☁️ Report - 🗺️ {location_name}");
+   println!("Current Weather ☁️ Report - 🗺️ {location_name}");
    println!("{}", "---------------------------------------------");
    println!("{} \t{}", status, uv_index);
    println!("{} \t{}", temp, wind);
