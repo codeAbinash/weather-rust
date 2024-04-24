@@ -1,14 +1,22 @@
-# Weather (weather-rust)
+<h2 align="center">
+	<img src="https://codeabinash.github.io/media/weather-rust/images/256x256.png" width="130" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="35" width="0px"/>
+	Weather CLI Rust
+</h2>
 
-![GitHub Release](https://img.shields.io/github/v/release/codeAbinash/weather-rust)
-![Release Date](https://img.shields.io/github/release-date/codeabinash/weather-rust)
-![Languages](https://img.shields.io/github/languages/top/codeabinash/weather-rust)
-![License](https://img.shields.io/github/license/codeAbinash/weather-rust)
+<p align="center">
+    <img src="https://img.shields.io/github/v/release/codeAbinash/weather-rust?colorA=363a4f&colorB=a6da95&style=for-the-badge">
+    <img src="https://img.shields.io/github/languages/top/codeabinash/weather-rust?colorA=363a4f&colorB=f5a97f&style=for-the-badge">
+    <img src="https://img.shields.io/github/release-date/codeabinash/weather-rust?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
+    <!-- <img src="https://img.shields.io/github/license/codeAbinash/weather-rust?colorA=363a4f&colorB=ebcb8b&style=for-the-badge"> -->
+    <img src="https://img.shields.io/github/license/codeAbinash/weather-rust?colorA=363a4f&colorB=a6da95&style=for-the-badge">
+</p>
 
-A simple weather CLI app written in Rust.
+<p align="center">
+  A simple weather CLI app written in Rust.
+</p>
 
-
-![Demo](images/demo.gif)
+![Demo](https://codeabinash.github.io/media/weather-rust/images/demo.gif)
 
 ## Usage
 
