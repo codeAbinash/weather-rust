@@ -12,11 +12,13 @@
     <img src="https://img.shields.io/github/license/codeAbinash/weather-rust?colorA=363a4f&colorB=a6da95&style=for-the-badge">
 </p>
 
+
 <p align="center">
   A simple weather CLI app written in Rust.
 </p>
-
-![Demo](https://codeabinash.github.io/media/weather-rust/images/demo.gif)
+<p align="center">
+    <img src="https://codeabinash.github.io/media/weather-rust/images/demo.gif">
+</p>
 
 ## Usage
 
