@@ -7,8 +7,8 @@ license = "MIT"
 description = "A simple weather CLI app written in Rust"
 categories = ["cli", "weather", "api"]
 keywords = ["cli", "weather", "api"]
-homepage = "https://github.com/codeAbinash/weather-rs"
-repository = "https://github.com/codeAbinash/weather-rs"
+homepage = "https://github.com/codeAbinash/weather-rust"
+repository = "https://github.com/codeAbinash/weather-rust"
 
 
 [[bin]]
